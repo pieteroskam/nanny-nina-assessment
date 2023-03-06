@@ -13,11 +13,11 @@ trait Filterable
      * Filters should be sent as array in filters[] parameter.
      *
      * @example
-     *         filters[]="name like jack"
+     *         filters[]=name like jack
      *         filters[]=name like ja%
-     *         filters[]="age < 50"
+     *         filters[]=age < 50
      *         filters[]=relationship = Single
-     *         filters[]="country != France",
+     *         filters[]=country != France
      *
      * @param Builder $query
      * @param Request $request
@@ -26,6 +26,11 @@ trait Filterable
     public static function scopeFilter(Builder $query, Request $request): Builder
     {
         $filters    = $request->get('filters') ?? [];
+
+        if (!is_array($filters)){
+            return $query;
+        }
+
         $conditions = self::parseFilters($filters);
 
         foreach ($conditions as $condition)
