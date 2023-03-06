@@ -2,8 +2,8 @@
 According to assessment's description, the system is designed in such a way that it can filter any field with any condition.
 
 ## Tasks
-- [ ] Update User Model (migration, factory, seeder, unit test)
-- [ ] Create Extra Models (migration, factory, seeder, unit test)
+- [x] Update User Model (migration, factory, seeder, unit test)
+- [x] Create Extra Models (migration, factory, seeder, unit test)
 - [ ] Create Relation (unit test, diagram)
 - [ ] Migrate and Seed the Database
 - [ ] Implement Filterable Mechanism
