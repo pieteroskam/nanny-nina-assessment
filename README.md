@@ -6,7 +6,7 @@ According to assessment's description, the system is designed in such a way that
 - [x] Create Extra Models (migration, factory, seeder, unit test)
 - [x] Create Relation (unit test, diagram)
 - [x] Migrate and Seed the Database
-- [ ] Implement Filterable Mechanism
+- [x] Implement Filterable Mechanism
 - [ ] Add Controller and Route
 - [ ] Manual Testing (outputs)
 - [ ] Write Documentation (readme)
