@@ -40,3 +40,5 @@ Using query string array for conditions benefits:
 - [x] Add Controller and Route
 - [x] Manual Testing (outputs)
 - [x] Write Documentation (readme)
+
+##Sor for not responding to the assesment yet due to vacations. You will hear back from us tommorow. 
